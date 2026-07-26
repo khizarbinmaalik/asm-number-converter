@@ -38,14 +38,14 @@ After each conversion, the result is shown on screen and the program waits for a
 
 ## Building and Running
 
-The source file is [SimplifiedConversionTool.asm](SimplifiedConversionTool.asm).
+The source file is [tool.asm](tool.asm).
 
 Example workflow in a DOS environment:
 
 ```text
-masm SimplifiedConversionTool.asm;
-link SimplifiedConversionTool.obj;
-SimplifiedConversionTool.exe
+masm tool.asm;
+link tool.obj;
+tool.exe
 ```
 
 If you are using DOSBox, mount the project folder first, then run the assembler and executable from inside DOSBox.
@@ -55,6 +55,3 @@ If you are using DOSBox, mount the project folder first, then run the assembler 
 - This is a 16-bit real-mode DOS program and will not run natively on modern 64-bit systems without an emulator or compatibility layer.
 - The conversion routines operate on unsigned 16-bit values.
 
-## License
-
-No license has been specified yet.
